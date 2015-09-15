@@ -32,7 +32,7 @@ function loginFailed($username, $a) {
     // write failed login to log 
 }
 
-include 'includes/views/head.php';
+include 'includes/head.php';
 ?>
 <html lang="en">
     <body>
