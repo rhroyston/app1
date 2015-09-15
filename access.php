@@ -11,11 +11,12 @@ $options = array(
 'advancedsecurity' => 'true'
 );
 $a = new Auth("DB", $options, "loginFunction", $optional);
-$a->addUser('rhroyston', 'nic0tine', array('first_name' => 'Ron', 'last_name' => 'Royston'));
+$a->addUser('rhroyston@gmail.com', 'nic0tine', array('first_name' => 'Ron', 'last_name' => 'Royston'));
 //$a->setLoginCallback('loginCallback');
 //$a->setLogoutCallback('logoutCallback');
 
 function loginFunction() { 
+    echo ' ';
     // show login page 
 } 
 function loginCallback($username, $a) { 
@@ -35,6 +36,7 @@ function loginFailed($username, $a) {
 
 include 'includes/head.php';
 $a->start();
+if ($a->checkAuth()) { };
 ?>
 <html lang="en">
     <body>
