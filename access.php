@@ -2,7 +2,7 @@
 require_once "Auth.php";
 $title = 'Home';  
 $options = array(
-'dsn' => 'mysql://admin39halFD:Fdnv72D2mZjX@localhost/app1',
+'dsn' => 'mysql://admin39halFD:Fdnv72D2mZjX@127.7.188.2/app1',
 'table' => 'users',
 'usernamecol' => 'username',
 'passwordcol' => 'password',
