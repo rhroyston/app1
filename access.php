@@ -13,7 +13,9 @@ $options = array(
 $a = new Auth("DB", $options, "loginFunction", $optional);
 $a->setLoginCallback('loginCallback');
 $a->setLogoutCallback('logoutCallback');
-$auth->addUser('rhroyston', 'nic0tine');
+
+$a->addUser('rhroyston', 'nic0tine', array('first_name' => 'Ron', 'last_name' => 'Royston'));
+
 $a->start();
 function loginFunction() { 
     // show login page 
