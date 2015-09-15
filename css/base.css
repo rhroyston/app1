@@ -34,23 +34,16 @@ margin-right:10%;
   margin-bottom: 40px;
   margin-right: auto;
 }
-.mdl-card-login > .mdl-card__title {
+.mdl-card-std > .mdl-card__title {
   color: #fff;
   background: #3F51B5; 
 }
 
-.demo-card-wide > .mdl-card__title {
+.mdl-card-wide > .mdl-card__title {
   color: #fff;
   background: #3F51B5;
 }
-.demo-card-wide.mdl-card {
+.mdl-card-wide.mdl-card {
   width: 512px;
 }
-.demo-card-wide{
-  color: #fff;
-  background: #3F51B5;
-}
 
-.demo-card-wide > .mdl-card__menu {
-  color: #fff;
-}
