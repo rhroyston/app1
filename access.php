@@ -1,8 +1,8 @@
 <?php
-require_once "auth.php";
+require_once "Auth.php";
 $title = 'Home';  
 $options = array(
-'dsn' => 'mysql://adminnJQ7f1t:rndE8Y5Pc17b@localhost/app1',
+'dsn' => 'mysql://admin39halFD:Fdnv72D2mZjX@localhost/app1',
 'table' => 'users',
 'usernamecol' => 'username',
 'passwordcol' => 'password',
