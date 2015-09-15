@@ -1,4 +1,4 @@
-<div class="demo-card-wide mdl-card mdl-shadow--4dp">
+<div class="mdl-card mdl-card-wide mdl-shadow--4dp">
     <div class="mdl-card__title">
         <h2 class="mdl-card__title-text">Register</h2>
     </div>  
