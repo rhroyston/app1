@@ -70,7 +70,9 @@
 
                   
 if ($auth->checkAuth()) {
-     echo $a->getAuthData('firstname');
+     echo $a->getAuthData('firstname') . " <br>";
+     echo $a->getAuthData('email') . " <br>";
+     echo 'private info here for insiders';
 } else {
      echo '<p>You must be logged in to access this page.</p>';
 }                  
