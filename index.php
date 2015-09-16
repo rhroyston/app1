@@ -25,7 +25,7 @@
 ?>
 <!-- Produced By Ron Royston, ron@stndip.com -->
 <html lang="en">
-  <body class="special-elite">
+  <body class="">
     <!-- Uses a header that scrolls with the text, rather than staying locked at the top -->
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
       <header class="mdl-layout__header mdl-layout__header--scroll">
@@ -48,9 +48,9 @@
         </div>
       </header>
         <div class="mdl-layout__drawer">
-          <span class="mdl-layout-title">Title</span>
+          <span class="mdl-layout-title bangers">Title</span>
           <nav class="mdl-navigation">
-            <a class="mdl-navigation__link" href="">Link</a>
+            <a class="mdl-navigation__link special-elite" href="">Link</a>
             <a class="mdl-navigation__link" href="">Link</a>
             <a class="mdl-navigation__link" href="">Link</a>
             <a class="mdl-navigation__link" href="">Link</a>
@@ -61,7 +61,7 @@
             <section class="section--center mdl-grid mdl-grid--no-spacing">
               <div class="mdl-cell mdl-cell--12-col">
                 <!-- Your content goes here -->
-                <h1>This is my homepage</h1>
+                <h1 class="special-elite">This is my homepage</h1>
                 <h2>Welcome.</h2>
                 <h3>We are glad you visited.</h3>
                 <h4>Please check back soon!</h4>
