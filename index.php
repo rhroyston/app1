@@ -51,11 +51,13 @@
               }
             </a>
             <a class="mdl-navigation__link" href="includes/logout">
+              <?php
               if ($a->getAuth()) {
                 echo "logout";
               } else {
                 echo "Login &#47; Register";
               }
+              ?>
             </a>
           </nav>
         </div>
