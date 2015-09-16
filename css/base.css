@@ -26,7 +26,6 @@ float: right;
 .base-center{
 margin-left:10%;
 margin-right:10%;
-
 }
 .mdl-card {
   margin-top: 16px;
@@ -38,12 +37,14 @@ margin-right:10%;
   color: #fff;
   background: #3F51B5; 
 }
-
 .mdl-card-wide > .mdl-card__title {
   color: #fff;
   background: #3F51B5;
 }
 .mdl-card-wide.mdl-card {
   width: 512px;
+}
+.header-icon-adjust{
+  margin-top:16px;
 }
 
