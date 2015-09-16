@@ -22,7 +22,7 @@
       // write failed login to log 
   }
   if ($a->getAuth()) {
-    $email = $a->getAuthData('email');
+    //$email = $a->getAuthData('email');
     $firstname = $a->getAuthData('firstname');
     $lastname = $a->getAuthData('lastname');
     $street = $a->getAuthData('street');
@@ -62,7 +62,7 @@
       <br>
       <br>
       <?php 
-      echo $email;
+      echo $firstname;
       echo 'hi';
       ?>
       <br>
