@@ -6,12 +6,17 @@
         <form method="post" action="access">
             <div class="mdl-textfield mdl-js-textfield ">
                 <input class="mdl-textfield__input" type="text" name="username" id="username" placeholder="Username..."/>
-                <span class="mdl-textfield__error"></span>
+                
             </div>
             <div class="mdl-textfield mdl-js-textfield ">
                 <input class="mdl-textfield__input" type="password" name="password" id="password" placeholder="Password..." maxlength="40" />
-                <span class="mdl-textfield__error"></span>
+                
             </div>
+
+  <div class="mdl-textfield mdl-js-textfield">
+    <input class="mdl-textfield__input" type="text" id="sample1" />
+    <label class="mdl-textfield__label" for="sample1">Text...</label>
+  </div> 
 
   
             <div class="mdl-card__actions mdl-cell--12-col send-button">
