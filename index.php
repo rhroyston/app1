@@ -20,17 +20,8 @@
   } 
   function loginFailed($username, $a) { 
       // write failed login to log 
-  } 
-  
-  //$a->setLoginCallback('loginSuccess'); 
-  //$a->setFailedLoginCallback('loginFailed'); 
-  
+  }
   include 'includes/head.php';
-  
-  //include 'includes/header.php';
-  //include 'includes/standard-top.php';
-  
-
 ?>
 <!-- Produced By Ron Royston, ron@stndip.com -->
 <html lang="en">
@@ -75,6 +66,12 @@
                 <h3>We are glad you visited.</h3>
                 <h4>Please check back soon!</h4>
                 <p><i class="material-icons">person_outline</i>This is what I am saying.</p>
+                
+  <div class="mdl-textfield mdl-js-textfield">
+    <input class="mdl-textfield__input" type="text" id="sample1" />
+    <label class="mdl-textfield__label" for="sample1">Text...</label>
+  </div>                
+                
                 <?php
 
                   if ($a->getAuth()) {

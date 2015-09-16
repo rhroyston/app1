@@ -13,7 +13,7 @@
 <!-- Style sheet link -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.css">
-<link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.blue_grey-light_blue.min.css" />
+<link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.grey-deep_orange.min.css" />
 <link rel="stylesheet" href="css/base.css">
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>

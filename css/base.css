@@ -47,14 +47,14 @@ margin-right:10%;
 .header-icon-adjust{
   margin-top:26px;
 }
-    .material-icons, .icon-text, .icon-text-caps, .icon-text-tweaked {
-      vertical-align: middle;
-    }
-    .icon-text-caps, .icon-text-tweaked {
-      text-transform: uppercase;
-    }
-    .icon-text-tweaked {
-      position:relative;
-      top:1px;
-    }
+.material-icons, .icon-text, .icon-text-caps, .icon-text-tweaked {
+  vertical-align: middle;
+}
+.icon-text-caps, .icon-text-tweaked {
+  text-transform: uppercase;
+}
+.icon-text-tweaked {
+  position:relative;
+  top:1px;
+}
 
