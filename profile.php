@@ -20,16 +20,20 @@
   } 
   function loginFailed($username, $a) { 
       // write failed login to log 
-  } 
-  
-  //$a->setLoginCallback('loginSuccess'); 
-  //$a->setFailedLoginCallback('loginFailed'); 
+  }
+  if ($a->getAuth()) {
+    $email = $a->getAuthData('email');
+    $firstname = $a->getAuthData('firstname');
+    $lastname = $a->getAuthData('lastname');
+    $street = $a->getAuthData('street');
+    $city = $a->getAuthData('city');
+    $state = $a->getAuthData('state');
+    $zip = $a->getAuthData('zip');
+    $birthday = $a->getAuthData('birthday');
+    $phone = $a->getAuthData('phone');
+  }
   
   include 'includes/head.php';
-  
-  //include 'includes/header.php';
-  //include 'includes/standard-top.php';
-  
 
 ?>
 <!-- Produced By Ron Royston, ron@stndip.com -->
@@ -47,7 +51,7 @@
           <nav class="mdl-navigation">
             <?php
               if ($a->getAuth()) {
-                echo "<a class=\"mdl-navigation__link\" href=\"profile\">" . $a->getAuthData('firstname') . "</a>";
+                echo "<a class=\"mdl-navigation__link\" href=\"profile\">" . $firstname . "</a>";
                 echo '<a class="mdl-navigation__link" href="includes/logout">logout</a>';
               } else {
                 echo '<a class="mdl-navigation__link" href="access">Login &#47; Register</a>';
