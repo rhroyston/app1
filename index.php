@@ -50,7 +50,7 @@
                 echo "<a class=\"mdl-navigation__link\" href=\"\">$a->getAuthData('firstname')</a>";
                 echo '<a class="mdl-navigation__link" href="includes/logout">logout</a>';
               } else {
-                echo '<a class="mdl-navigation__link" href="includes/access">Login &#47; Register</a>';
+                echo '<a class="mdl-navigation__link" href="access">Login &#47; Register</a>';
               }
             ?>
           </nav>
