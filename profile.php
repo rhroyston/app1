@@ -101,7 +101,7 @@
                             <span class="mdl-textfield__error">Minumum Length 5 Characters</span>
                         </div>
                         <div class="mdl-textfield mdl-js-textfield mdl-cell--6-col">
-                            <input class="mdl-textfield__input" type="text" name="firstname" id="firstname" maxlength="20" value="" placeholder="First Name...">
+                            <input class="mdl-textfield__input" type="text" name="firstname" id="firstname" maxlength="20" value="<?php echo $firstname ?>" placeholder="First Name...">
                             <span class="mdl-textfield__error"></span>
                         </div>
                         <div class="mdl-textfield mdl-js-textfield mdl-cell--6-col">
