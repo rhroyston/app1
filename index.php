@@ -4,7 +4,7 @@
   $options = array(
   'dsn' => 'mysql://admin39halFD:Fdnv72D2mZjX@127.7.188.2/app1',
   'table' => 'users',
-  'usernamecol' => 'username',
+  'usernamecol' => 'email',
   'passwordcol' => 'password',
   'cryptType' => 'sha1',
   'db_fields' => '*',
