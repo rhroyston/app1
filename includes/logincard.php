@@ -5,7 +5,7 @@
     <div class="mdl-card__supporting-text mdl-grid">
         <form method="post" action="access">
             <div class="mdl-textfield mdl-js-textfield ">
-                <input class="mdl-textfield__input" type="text" name="username" id="username" placeholder="Username..."/>
+                <input class="mdl-textfield__input" type="text" name="username" id="username" />
                 
             </div>
             <div class="mdl-textfield mdl-js-textfield ">
