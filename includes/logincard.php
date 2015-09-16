@@ -6,6 +6,7 @@
         <form method="post" action="access">
             <div class="mdl-textfield mdl-js-textfield ">
                 <input class="mdl-textfield__input" type="text" name="username" id="username" />
+                <label class="mdl-textfield__label" for="sample1">Text...</label>
                 
             </div>
             <div class="mdl-textfield mdl-js-textfield ">
@@ -15,7 +16,7 @@
 
   <div class="mdl-textfield mdl-js-textfield">
     <input class="mdl-textfield__input" type="text" id="sample1" />
-    <label class="mdl-textfield__label" for="sample1">Text...</label>
+    
   </div> 
 
   
