@@ -37,36 +37,34 @@
 <html lang="en">
   <body>
     <div class="mdl-layout mdl-layout--fixed-header mdl-js-layout mdl-color--grey-100">
-      <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--grey-100 mdl-color-text--grey-800">
+      <header class="mdl-layout__header mdl-layout__header--scroll">
         <div class="mdl-layout__header-row">
-          <span class="mdl-layout-title">Account Profile</span>
+          <!-- Title -->
+          <span class="mdl-layout-title">Title</span>
+          <!-- Add spacer, to align navigation to the right -->
           <div class="mdl-layout-spacer"></div>
-          <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
-            <label class="mdl-button mdl-js-button mdl-button--icon" for="search">
+          <!-- Navigation -->
+          <nav class="mdl-navigation">
             <?php
               if ($a->getAuth()) {
-                $firstname = $a->getAuthData('firstname');
-                $lastname = $a->getAuthData('lastname');
-                $street = $a->getAuthData('street');
-                $city = $a->getAuthData('city');
-                $state = $a->getAuthData('state');
-                $zip = $a->getAuthData('zip');
-                $birthday = $a->getAuthData('birthday');
-                $phone = $a->getAuthData('phone');
                 echo "<a class=\"mdl-navigation__link\" href=\"profile\">" . $a->getAuthData('firstname') . "</a>";
                 echo '<a class="mdl-navigation__link" href="includes/logout">logout</a>';
               } else {
-                header("Location: http://app1-rhroyston.rhcloud.com/access");
+                echo '<a class="mdl-navigation__link" href="access">Login &#47; Register</a>';
               }
             ?>
-            </label>
-            <div class="mdl-textfield__expandable-holder">
-              <input class="mdl-textfield__input" type="text" id="search" />
-              <label class="mdl-textfield__label" for="search">Enter your query...</label>
-            </div>
-          </div>
+          </nav>
         </div>
       </header>
+        <div class="mdl-layout__drawer">
+          <span class="mdl-layout-title">Title</span>
+          <nav class="mdl-navigation">
+            <a class="mdl-navigation__link" href="">Link</a>
+            <a class="mdl-navigation__link" href="">Link</a>
+            <a class="mdl-navigation__link" href="">Link</a>
+            <a class="mdl-navigation__link" href="">Link</a>
+          </nav>
+        </div>
       <main class="mdl-layout__content">
         <div class="mdl-grid">
           <div class="mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
