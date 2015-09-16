@@ -68,14 +68,11 @@
                 <p>This is what I am saying.</p>
                 <?php
 
+                  if ($a->getAuth()) {
+                       echo "One can only see this if he is logged in!";
+                       echo $a->getAuthData('firstname') . " <br>";
+                  }
                   
-if ($a->checkAuth()) {
-  echo $a->getAuthData('firstname') . " <br>";
-  echo 'inside';
-} else {
-     echo '<p>You must be logged in to access this page.</p>';
-}                  
-
                 ?>
                 <footer class="mdl-mini-footer">
                   <div class="mdl-mini-footer__left-section">
