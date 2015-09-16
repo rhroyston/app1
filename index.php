@@ -36,18 +36,7 @@
   <h3>We are glad you visited.</h3>
   <h4>Please check back soon!</h4>
   <p>This is what I am saying.</p>
-  <h1>This is my homepage</h1>
-  <h2>Welcome.</h2>
-  <h3>We are glad you visited.</h3>
-  <h4>Please check back soon!</h4>
-  <h1>This is my homepage</h1>
-  <h2>Welcome.</h2>
-  <h3>We are glad you visited.</h3>
-  <h4>Please check back soon!</h4>
-  <h1>This is my homepage</h1>
-  <h2>Welcome.</h2>
-  <h3>We are glad you visited.</h3>
-  <h4>Please check back soon!</h4>
+
 <?php
   if ($a->getAuth()) {
     echo "One can only see this if he is logged in!";
