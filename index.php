@@ -67,9 +67,14 @@
                 <h4>Please check back soon!</h4>
                 <p>This is what I am saying.</p>
                 <?php
-                  if ($a->getAuth()) {
-                    echo "One can only see this if he is logged in!";
-                  }
+
+                  
+if ($auth->checkAuth()) {
+     echo "<p>" . $a->getAuthData('firstname') . $a->getAuthData('lastname') . "are logged in and can read this. How cool is that?</p>";
+} else {
+     echo '<p>You must be logged in to access this page.</p>';
+}                  
+
                 ?>
                 <footer class="mdl-mini-footer">
                   <div class="mdl-mini-footer__left-section">
