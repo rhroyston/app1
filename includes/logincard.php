@@ -1,4 +1,4 @@
-<div class="mdl-card mdl-card-std mdl-shadow--4dp">
+<div class="mdl-card mdl-shadow--4dp">
     <div class="mdl-card__title">
         <h2 class="mdl-card__title-text">Sign In</h2>
     </div>

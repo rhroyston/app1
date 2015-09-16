@@ -59,10 +59,6 @@ include 'includes/head.php';
                             <?php include 'includes/registrationcard.php';?>
                         </div>
                     </div><!-- tabs -->
-                      <div class="mdl-textfield mdl-js-textfield">
-    <input class="mdl-textfield__input" type="text" id="sample1" />
-    <label class="mdl-textfield__label" for="sample1">Text...</label>
-  </div> 
                 </div><!-- content -->
             </main>
         </div><!-- layout -->
