@@ -52,6 +52,7 @@
   if ($a->getAuth()) {
     echo "One can only see this if he is logged in!";
   }
-  include 'includes/standard-bottom.php';
   include 'includes/footer.php';
+  include 'includes/standard-bottom.php';
+  
 ?>
