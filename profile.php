@@ -22,7 +22,7 @@
       // write failed login to log 
   }
   if ($a->getAuth()) {
-    //$email = $a->getAuthData('email');
+    $email = $a->getAuthData('email');
     $firstname = $a->getAuthData('firstname');
     $lastname = $a->getAuthData('lastname');
     $street = $a->getAuthData('street');
@@ -61,13 +61,6 @@
       </header>
       <br>
       <br>
-      <?php 
-      echo $firstname;
-      echo $lastname;
-      echo $street;
-      echo $city;
-      echo 'hi';
-      ?>
       <br>
       <br>
         <div class="mdl-layout__drawer">
@@ -90,7 +83,7 @@
                 <div class="mdl-card__supporting-text mdl-grid">
                     <form method="post" action="includes/reg">
                         <div class="mdl-textfield mdl-js-textfield mdl-cell--6-col">    
-                            <input class="mdl-textfield__input" type="text" minlength="3" name="username" id="username" value="" placeholder="Username...">
+                            <input class="mdl-textfield__input" type="text" minlength="3" name="username" id="username" value="<?php echo $email ?>" placeholder="Username...">
                             <span class="mdl-textfield__error">Minimum Length 3 Characters</span>
                         </div>
                         <div class="mdl-textfield mdl-js-textfield mdl-cell--6-col">
@@ -148,8 +141,6 @@
 
           </div>
         </div>
-        
-        
         <footer class="demo-footer mdl-mini-footer">
           <div class="mdl-mini-footer--left-section">
             <ul class="mdl-mini-footer--link-list">
