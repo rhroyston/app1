@@ -65,12 +65,8 @@
                 <h2>Welcome.</h2>
                 <h3>We are glad you visited.</h3>
                 <h4>Please check back soon!</h4>
-                <p><i class="material-icons">person_outline</i>This is what I am saying.</p>
-                
-  <div class="mdl-textfield mdl-js-textfield">
-    <input class="mdl-textfield__input" type="text" id="sample1" />
-    <label class="mdl-textfield__label" for="sample1">Text...</label>
-  </div>                
+                <p><i class="material-icons fix">person_outline</i>This is what I am saying.</p>
+               
                 
                 <?php
 
