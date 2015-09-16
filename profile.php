@@ -59,6 +59,14 @@
           </nav>
         </div>
       </header>
+      <br>
+      <br>
+      <?php 
+      echo $email;
+      echo 'hi';
+      ?>
+      <br>
+      <br>
         <div class="mdl-layout__drawer">
           <span class="mdl-layout-title">Title</span>
           <nav class="mdl-navigation">
@@ -138,7 +146,6 @@
           </div>
         </div>
         
-        <?php echo $email?>
         
         <footer class="demo-footer mdl-mini-footer">
           <div class="mdl-mini-footer--left-section">
