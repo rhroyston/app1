@@ -33,16 +33,32 @@
 
 ?>
 <!-- Produced By Ron Royston, ron@stndip.com -->
+
 <html lang="en">
   <body>
-    <div class="demo-layout mdl-layout mdl-layout--fixed-header mdl-js-layout mdl-color--grey-100">
-      <header class="demo-header mdl-layout__header mdl-layout__header--scroll mdl-color--grey-100 mdl-color-text--grey-800">
+    <div class="mdl-layout mdl-layout--fixed-header mdl-js-layout mdl-color--grey-100">
+      <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--grey-100 mdl-color-text--grey-800">
         <div class="mdl-layout__header-row">
-          <span class="mdl-layout-title">Material Design Lite</span>
+          <span class="mdl-layout-title">Account Profile</span>
           <div class="mdl-layout-spacer"></div>
           <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
             <label class="mdl-button mdl-js-button mdl-button--icon" for="search">
-              <i class="material-icons">search</i>
+            <?php
+              if ($a->getAuth()) {
+                $firstname = $a->getAuthData('firstname');
+                $lastname = $a->getAuthData('lastname');
+                $street = $a->getAuthData('street');
+                $city = $a->getAuthData('city');
+                $state = $a->getAuthData('state');
+                $zip = $a->getAuthData('zip');
+                $birthday = $a->getAuthData('birthday');
+                $phone = $a->getAuthData('phone');
+                echo "<a class=\"mdl-navigation__link\" href=\"profile\">" . $a->getAuthData('firstname') . "</a>";
+                echo '<a class="mdl-navigation__link" href="includes/logout">logout</a>';
+              } else {
+                header("Location: http://app1-rhroyston.rhcloud.com/access");
+              }
+            ?>
             </label>
             <div class="mdl-textfield__expandable-holder">
               <input class="mdl-textfield__input" type="text" id="search" />
@@ -56,44 +72,70 @@
         <div class="demo-container mdl-grid">
           <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
           <div class="demo-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
-            <div class="demo-crumbs mdl-color-text--grey-500">
-              Google &gt; Material Design Lite &gt; How to install MDL
+
+<div class="mdl-card mdl-card-wide mdl-shadow--4dp">
+    <div class="mdl-card__title">
+        <h2 class="mdl-card__title-text">Register</h2>
+    </div>  
+    <div class="mdl-card__supporting-text mdl-grid">
+        <form method="post" action="includes/reg">
+            <div class="mdl-textfield mdl-js-textfield mdl-cell--6-col">    
+                <input class="mdl-textfield__input" type="text" minlength="3" name="username" id="username" value="" placeholder="Username...">
+                <span class="mdl-textfield__error">Minimum Length 3 Characters</span>
             </div>
-            <h3>How to install MDL</h3>
-              <p>
-                Cillum dolor esse sit incididunt velit eiusmod magna ad nostrud officia aute dolor dolor. Magna esse ullamco pariatur adipisicing consectetur eu commodo officia. Ex cillum consequat mollit minim elit est deserunt occaecat nisi amet. Quis aliqua nostrud Lorem occaecat sunt. Eiusmod quis amet ullamco aliquip dolore ut incididunt duis adipisicing. Elit consequat nisi eiusmod aute ipsum sunt veniam do est. Occaecat mollit aliquip ut proident consectetur amet ex dolore consectetur aliqua elit.
-              </p>
-              <p>
-                Commodo nisi non consectetur voluptate incididunt mollit duis dolore amet amet tempor exercitation. Qui amet aute ea aute id ad aliquip proident. Irure duis qui labore deserunt enim in quis nisi sint consequat aliqua. Ex proident labore et laborum tempor fugiat sint magna veniam minim. Nulla dolor labore adipisicing in enim mollit laboris fugiat eu. Aliquip minim cillum ullamco voluptate non dolore non ex duis fugiat duis ad. Deserunt cillum ad et nisi amet non voluptate culpa qui do. Labore ullamco et minim proident est laborum mollit ad labore deserunt ut irure dolore. Reprehenderit ad ad irure ut irure qui est eu velit eu excepteur adipisicing culpa. Laborum cupidatat ullamco eu duis anim reprehenderit proident aute ad consectetur eiusmod.
-              </p>
-              <p>
-                Tempor tempor aliqua in commodo cillum Lorem magna dolore proident Lorem. Esse ad consequat est excepteur irure eu irure quis aliqua qui. Do mollit esse veniam excepteur ut veniam anim minim dolore sit commodo consequat duis commodo. Sunt dolor reprehenderit ipsum minim eiusmod eu consectetur anim excepteur eiusmod. Duis excepteur anim dolor sit enim veniam deserunt anim adipisicing Lorem elit. Cillum sunt do consequat elit laboris nisi consectetur.
-              </p>
-            <h3>Basic MDL Usage</h3>
-              <p>
-                Cillum dolor esse sit incididunt velit eiusmod magna ad nostrud officia aute dolor dolor. Magna esse ullamco pariatur adipisicing consectetur eu commodo officia. Ex cillum consequat mollit minim elit est deserunt occaecat nisi amet. Quis aliqua nostrud Lorem occaecat sunt. Eiusmod quis amet ullamco aliquip dolore ut incididunt duis adipisicing. Elit consequat nisi eiusmod aute ipsum sunt veniam do est. Occaecat mollit aliquip ut proident consectetur amet ex dolore consectetur aliqua elit.
-              </p>
-              <p>
-                Commodo nisi non consectetur voluptate incididunt mollit duis dolore amet amet tempor exercitation. Qui amet aute ea aute id ad aliquip proident. Irure duis qui labore deserunt enim in quis nisi sint consequat aliqua. Ex proident labore et laborum tempor fugiat sint magna veniam minim. Nulla dolor labore adipisicing in enim mollit laboris fugiat eu. Aliquip minim cillum ullamco voluptate non dolore non ex duis fugiat duis ad. Deserunt cillum ad et nisi amet non voluptate culpa qui do. Labore ullamco et minim proident est laborum mollit ad labore deserunt ut irure dolore. Reprehenderit ad ad irure ut irure qui est eu velit eu excepteur adipisicing culpa. Laborum cupidatat ullamco eu duis anim reprehenderit proident aute ad consectetur eiusmod.
-              </p>
-              <p>
-                Cillum dolor esse sit incididunt velit eiusmod magna ad nostrud officia aute dolor dolor. Magna esse ullamco pariatur adipisicing consectetur eu commodo officia. Ex cillum consequat mollit minim elit est deserunt occaecat nisi amet. Quis aliqua nostrud Lorem occaecat sunt. Eiusmod quis amet ullamco aliquip dolore ut incididunt duis adipisicing. Elit consequat nisi eiusmod aute ipsum sunt veniam do est. Occaecat mollit aliquip ut proident consectetur amet ex dolore consectetur aliqua elit.
-              </p>
-              <p>
-                Commodo nisi non consectetur voluptate incididunt mollit duis dolore amet amet tempor exercitation. Qui amet aute ea aute id ad aliquip proident. Irure duis qui labore deserunt enim in quis nisi sint consequat aliqua. Ex proident labore et laborum tempor fugiat sint magna veniam minim. Nulla dolor labore adipisicing in enim mollit laboris fugiat eu. Aliquip minim cillum ullamco voluptate non dolore non ex duis fugiat duis ad. Deserunt cillum ad et nisi amet non voluptate culpa qui do. Labore ullamco et minim proident est laborum mollit ad labore deserunt ut irure dolore. Reprehenderit ad ad irure ut irure qui est eu velit eu excepteur adipisicing culpa. Laborum cupidatat ullamco eu duis anim reprehenderit proident aute ad consectetur eiusmod.
-              </p>
-              <p>
-                Cillum dolor esse sit incididunt velit eiusmod magna ad nostrud officia aute dolor dolor. Magna esse ullamco pariatur adipisicing consectetur eu commodo officia. Ex cillum consequat mollit minim elit est deserunt occaecat nisi amet. Quis aliqua nostrud Lorem occaecat sunt. Eiusmod quis amet ullamco aliquip dolore ut incididunt duis adipisicing. Elit consequat nisi eiusmod aute ipsum sunt veniam do est. Occaecat mollit aliquip ut proident consectetur amet ex dolore consectetur aliqua elit.
-              </p>
-              <p>
-                Commodo nisi non consectetur voluptate incididunt mollit duis dolore amet amet tempor exercitation. Qui amet aute ea aute id ad aliquip proident. Irure duis qui labore deserunt enim in quis nisi sint consequat aliqua. Ex proident labore et laborum tempor fugiat sint magna veniam minim. Nulla dolor labore adipisicing in enim mollit laboris fugiat eu. Aliquip minim cillum ullamco voluptate non dolore non ex duis fugiat duis ad. Deserunt cillum ad et nisi amet non voluptate culpa qui do. Labore ullamco et minim proident est laborum mollit ad labore deserunt ut irure dolore. Reprehenderit ad ad irure ut irure qui est eu velit eu excepteur adipisicing culpa. Laborum cupidatat ullamco eu duis anim reprehenderit proident aute ad consectetur eiusmod.
-              </p>
-              <p>
-                Cillum dolor esse sit incididunt velit eiusmod magna ad nostrud officia aute dolor dolor. Magna esse ullamco pariatur adipisicing consectetur eu commodo officia. Ex cillum consequat mollit minim elit est deserunt occaecat nisi amet. Quis aliqua nostrud Lorem occaecat sunt. Eiusmod quis amet ullamco aliquip dolore ut incididunt duis adipisicing. Elit consequat nisi eiusmod aute ipsum sunt veniam do est. Occaecat mollit aliquip ut proident consectetur amet ex dolore consectetur aliqua elit.
-              </p>
-              <p>
-                Commodo nisi non consectetur voluptate incididunt mollit duis dolore amet amet tempor exercitation. Qui amet aute ea aute id ad aliquip proident. Irure duis qui labore deserunt enim in quis nisi sint consequat aliqua. Ex proident labore et laborum tempor fugiat sint magna veniam minim. Nulla dolor labore adipisicing in enim mollit laboris fugiat eu. Aliquip minim cillum ullamco voluptate non dolore non ex duis fugiat duis ad. Deserunt cillum ad et nisi amet non voluptate culpa qui do. Labore ullamco et minim proident est laborum mollit ad labore deserunt ut irure dolore. Reprehenderit ad ad irure ut irure qui est eu velit eu excepteur adipisicing culpa. Laborum cupidatat ullamco eu duis anim reprehenderit proident aute ad consectetur eiusmod.
-              </p>
+            <div class="mdl-textfield mdl-js-textfield mdl-cell--6-col">
+            </div>
+            <div class="mdl-textfield mdl-js-textfield mdl-cell--6-col">
+                <input class="mdl-textfield__input" type="password" minlength="5" name="password" id="password" value="" placeholder="Password...">
+                <span class="mdl-textfield__error">Minumum Length 5 Characters</span>
+            </div>
+            <div class="mdl-textfield mdl-js-textfield mdl-cell--6-col">
+                <input class="mdl-textfield__input" type="password" minlength="5" name="confirmPassword" id="confirmPassword" value="" placeholder="Confirm Password...">
+                <span class="mdl-textfield__error">Minumum Length 5 Characters</span>
+            </div>
+            <div class="mdl-textfield mdl-js-textfield mdl-cell--6-col">
+                <input class="mdl-textfield__input" type="text" name="firstname" id="firstname" maxlength="20" value="" placeholder="First Name...">
+                <span class="mdl-textfield__error"></span>
+            </div>
+            <div class="mdl-textfield mdl-js-textfield mdl-cell--6-col">
+                <input class="mdl-textfield__input" type="text" name="lastname" id="lastname" maxlength="40" value="" placeholder="Last Name...">
+                <span class="mdl-textfield__error"></span>
+            </div>
+            <div class="mdl-textfield mdl-js-textfield mdl-cell--12-col">
+                <input class="mdl-textfield__input" type="text" name="street" id="street" maxlength="40" value="" placeholder="Street...">
+                <span class="mdl-textfield__error"></span>
+            </div>
+            <div class="mdl-textfield mdl-js-textfield mdl-cell--4-col">
+                <input class="mdl-textfield__input" type="text" name="city" id="city" maxlength="40" value="" placeholder="City...">
+                <span class="mdl-textfield__error"></span>
+            </div>
+            <div class="mdl-textfield mdl-js-textfield mdl-cell--4-col">
+                <input class="mdl-textfield__input" type="text" name="state" id="state" maxlength="2" value="" placeholder="State...">
+                <span class="mdl-textfield__error"></span>
+            </div>
+            <div class="mdl-textfield mdl-js-textfield mdl-cell--4-col">
+                <input class="mdl-textfield__input" type="text" name="zip" id="zip" maxlength="5" value="" placeholder="ZIP...">
+                <span class="mdl-textfield__error"></span>
+            </div>
+            <div class="mdl-textfield mdl-js-textfield mdl-cell--4-col">
+                <input class="mdl-textfield__input" type="text" name="birthday" id="birthday" pattern="(0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])[- /.](19|20)\d\d" placeholder="Birthday...">
+                <span class="mdl-textfield__error">Format xx/xx/xxxx</span>
+            </div>
+            <div class="mdl-textfield mdl-js-textfield mdl-cell--2-col">
+
+            </div>
+            <div class="mdl-textfield mdl-js-textfield mdl-cell--4-col">
+                <input class="mdl-textfield__input" type="text" maxlength="13" name="phone" id="phone" placeholder="Phone...">
+                <span class="mdl-textfield__error"></span>
+            </div>
+            <br>
+            <button type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect">
+                Register
+            </button>
+        </form>
+    </div>
+</div>
+
           </div>
         </div>
         <footer class="demo-footer mdl-mini-footer">
