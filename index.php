@@ -48,12 +48,11 @@
         </div>
       </header>
         <div class="mdl-layout__drawer">
-          <span class="mdl-layout-title bangers">Title</span>
+          <span class="mdl-layout-title bangers">standard ip</span>
           <nav class="mdl-navigation">
-            <a class="mdl-navigation__link special-elite" href="">Link</a>
-            <a class="mdl-navigation__link" href="">Link</a>
-            <a class="mdl-navigation__link" href="">Link</a>
-            <a class="mdl-navigation__link" href="">Link</a>
+            <a class="mdl-navigation__link" href="articles">Articles</a>
+            <a class="mdl-navigation__link" href="multimedia">Multimedia</a>
+            <a class="mdl-navigation__link" href="downloads">Downloads</a>
           </nav>
         </div>
         <main class="mdl-layout__content">
@@ -105,7 +104,7 @@
                     </ul>
                   </div>
                   <div class="mdl-mini-footer__right-section">
-                    <button class="mdl-mini-footer__social-btn"></button>
+                    <button class="mdl-mini-footer__social-btn"><i class="fa fa-github"></i></button>
                     <button class="mdl-mini-footer__social-btn"></button>
                     <button class="mdl-mini-footer__social-btn"></button>
                   </div>
