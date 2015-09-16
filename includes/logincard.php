@@ -5,12 +5,12 @@
     <div class="mdl-card__supporting-text mdl-grid">
         <form method="post" action="access">
             <div class="mdl-textfield mdl-js-textfield mdl-cell mdl-cell--12-col">
-                <input class="mdl-textfield__input" type="text" name="username" id="username" placeholder="Username..."/>
+                <input class="mdl-textfield__input" type="text" name="username" id="username"/>
                 <label class="mdl-textfield__label" for="username">Username...</label>
                 
             </div>
             <div class="mdl-textfield mdl-js-textfield mdl-cell mdl-cell--12-col">
-                <input class="mdl-textfield__input" type="password" name="password" id="password" placeholder="Password..." maxlength="40" />
+                <input class="mdl-textfield__input" type="password" name="password" id="password" maxlength="40" />
                 <label class="mdl-textfield__label" for="password">Password...</label>
             </div>
             <div class="mdl-card__actions send-button">
