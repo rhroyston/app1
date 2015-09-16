@@ -29,6 +29,8 @@
   
   //include 'includes/header.php';
   //include 'includes/standard-top.php';
+  
+
 ?>
 <!-- Produced By Ron Royston, ron@stndip.com -->
 <html lang="en">
@@ -43,7 +45,18 @@
           <div class="mdl-layout-spacer"></div>
           <!-- Navigation -->
           <nav class="mdl-navigation">
-            <a class="mdl-navigation__link" href="access.php">Login &#47; Register</a>
+            <a class="mdl-navigation__link" href="">
+              if ($a->getAuth()) {
+                echo $a->getAuthData('firstname');
+              }
+            </a>
+            <a class="mdl-navigation__link" href="includes/logout">
+              if ($a->getAuth()) {
+                echo "logout";
+              } else {
+                echo "Login &#47; Register";
+              }
+            </a>
           </nav>
         </div>
       </header>
