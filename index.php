@@ -70,7 +70,7 @@
 
                   
 if ($auth->checkAuth()) {
-     echo "<p>You, {$a->getAuthData('first_name')} {$a->getAuthData('last_name')}, are logged in and can read this. How cool is that?</p>";
+     echo $a->getAuthData('firstname');
 } else {
      echo '<p>You must be logged in to access this page.</p>';
 }                  
