@@ -36,7 +36,7 @@
 
 <html lang="en">
   <body>
-    <div class="mdl-layout mdl-layout--fixed-header mdl-js-layout mdl-color--grey-100">
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
       <header class="mdl-layout__header mdl-layout__header--scroll">
         <div class="mdl-layout__header-row">
           <!-- Title -->
@@ -66,8 +66,8 @@
           </nav>
         </div>
       <main class="mdl-layout__content">
-        <div class="mdl-grid">
-          <div class="mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
+        <div class="page-content">
+          <div class="section--center mdl-grid mdl-grid--no-spacing">
 
             <div class="mdl-card mdl-card-wide mdl-shadow--4dp">
                 <div class="mdl-card__title">
