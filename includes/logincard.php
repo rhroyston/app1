@@ -4,23 +4,16 @@
     </div>
     <div class="mdl-card__supporting-text mdl-grid">
         <form method="post" action="access">
-            <div class="mdl-textfield mdl-js-textfield ">
+            <div class="mdl-textfield mdl-js-textfield mdl-cell mdl-cell--12-col">
                 <input class="mdl-textfield__input" type="text" name="username" id="username" placeholder="Username..."/>
                 <label class="mdl-textfield__label" for="sample1">Username...</label>
                 
             </div>
-            <div class="mdl-textfield mdl-js-textfield ">
+            <div class="mdl-textfield mdl-js-textfield mdl-cell mdl-cell--12-col">
                 <input class="mdl-textfield__input" type="password" name="password" id="password" placeholder="Password..." maxlength="40" />
-                
+                <label class="mdl-textfield__label" for="sample1">Password...</label>
             </div>
-
-  <div class="mdl-textfield mdl-js-textfield">
-    <input class="mdl-textfield__input" type="text" id="sample1" />
-    
-  </div> 
-
-  
-            <div class="mdl-card__actions mdl-cell--12-col send-button">
+            <div class="mdl-card__actions send-button">
                 <button type="submit" value="login" class="mdl-button mdl-js-ripple-effect mdl-js-button mdl-button--raised mdl-button--colored" id="send">
                     LOG IN  
                 </button>
