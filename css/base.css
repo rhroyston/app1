@@ -3,6 +3,12 @@ body {
   height: 100%;
   width: 100%;
 }
+.bangers{
+  font-family: 'Bangers', cursive;
+}
+.special-elite{
+  font-family: 'Special Elite', cursive;
+}
 .base-header-icon{
     font-size:2em;
     margin-top:26px;
