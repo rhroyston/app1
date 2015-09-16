@@ -11,7 +11,7 @@ $options = array(
 'advancedsecurity' => 'true'
 );
 $a = new Auth("DB", $options, "loginFunction", $optional);
-$a->addUser('rhroyston@gmail.com', 'nic0tine', array('firstname' => 'Ron', 'lastname' => 'Royston'));
+//$a->addUser('rhroyston@gmail.com', 'nic0tine', array('firstname' => 'Ron', 'lastname' => 'Royston'));
 $a->setLoginCallback('loginCallback');
 $a->setLogoutCallback('logoutCallback');
 
