@@ -66,8 +66,25 @@
                 <h3>We are glad you visited.</h3>
                 <h4>Please check back soon!</h4>
                 <p><i class="material-icons fix">person_outline</i>This is what I am saying about this <a class="anchor" href="#">link</a>.</p>
-                <p class="xxl">&copy; ip </p>
-               
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <p><span class="xxl">&copy;</span>  <span class="xl">ip </span></p>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
                 
                 <?php
 
