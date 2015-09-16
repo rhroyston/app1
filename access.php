@@ -33,7 +33,6 @@ function loginSuccess($username, $a) {
 function loginFailed($username, $a) { 
     // write failed login to log 
 }
-
 include 'includes/head.php';
 $a->start();
 if ($a->checkAuth()) { };

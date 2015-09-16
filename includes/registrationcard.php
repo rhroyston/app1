@@ -3,7 +3,7 @@
         <h2 class="mdl-card__title-text">Register</h2>
     </div>  
     <div class="mdl-card__supporting-text mdl-grid">
-        <form method="post" action="access">
+        <form method="post" action="includes/reg">
             <div class="mdl-textfield mdl-js-textfield mdl-cell--6-col">    
                 <input class="mdl-textfield__input" type="text" minlength="3" name="username" id="username" value="" placeholder="Username...">
                 <span class="mdl-textfield__error">Minimum Length 3 Characters</span>
