@@ -3,6 +3,21 @@ body {
   height: 100%;
   width: 100%;
 }
+h1{
+  font-family: 'Bangers', cursive;
+}
+h2{
+  font-family: 'Special Elite', cursive;
+}
+h3{
+  font-family: 'Special Elite', cursive;
+}
+h4{
+  font-family: 'Special Elite', cursive;
+}
+h5{
+  font-family: 'Special Elite', cursive;
+}
 .bangers{
   font-family: 'Bangers', cursive;
 }
