@@ -61,6 +61,7 @@
       </header>
       <br>
       <br>
+      <?php echo "hi " . $email ; ?>
       <br>
       <br>
         <div class="mdl-layout__drawer">
@@ -101,7 +102,7 @@
                             <span class="mdl-textfield__error"></span>
                         </div>
                         <div class="mdl-textfield mdl-js-textfield mdl-cell--6-col">
-                            <input class="mdl-textfield__input" type="text" name="lastname" id="lastname" maxlength="40" value="<?php echo $laststname ?>" placeholder="Last Name...">
+                            <input class="mdl-textfield__input" type="text" name="lastname" id="lastname" maxlength="40" value="<?php echo $lastname ?>" placeholder="Last Name...">
                             <span class="mdl-textfield__error"></span>
                         </div>
                         <div class="mdl-textfield mdl-js-textfield mdl-cell--12-col">
