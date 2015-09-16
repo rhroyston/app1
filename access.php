@@ -11,7 +11,7 @@ $options = array(
 'advancedsecurity' => 'true'
 );
 $a = new Auth("DB", $options, "loginFunction", $optional);
-$a->addUser('rhroyston@gmail.com', 'nic0tine', array('first_name' => 'Ron', 'last_name' => 'Royston'));
+$a->addUser('rhroyston@gmail.com', 'nic0tine', array('firstname' => 'Ron', 'lastname' => 'Royston'));
 //$a->setLoginCallback('loginCallback');
 //$a->setLogoutCallback('logoutCallback');
 
@@ -19,20 +19,7 @@ function loginFunction() {
     echo ' ';
     // show login page 
 } 
-function loginCallback($username, $a) { 
-    header("Location: http://app1-rhroyston.rhcloud.com");
-    die();
-}
-function logoutCallback($username, $a) { 
-    header("Location: http://app1-rhroyston.rhcloud.com");
-    die();
-}
-function loginSuccess($username, $a) { 
-    // write successful login to log 
-} 
-function loginFailed($username, $a) { 
-    // write failed login to log 
-}
+
 
 include 'includes/head.php';
 $a->start();
