@@ -45,20 +45,14 @@
           <div class="mdl-layout-spacer"></div>
           <!-- Navigation -->
           <nav class="mdl-navigation">
-            <a class="mdl-navigation__link" href="">
+            <?php
               if ($a->getAuth()) {
-                echo $a->getAuthData('firstname');
-              }
-            </a>
-            <a class="mdl-navigation__link" href="includes/logout">
-              <?php
-              if ($a->getAuth()) {
-                echo "logout";
+                echo '<a class="mdl-navigation__link" href="">' . $a->getAuthData('firstname') . '</a>';
+                echo '<a class="mdl-navigation__link" href="includes/logout">logout</a>';
               } else {
-                echo "Login &#47; Register";
+                echo '<a class="mdl-navigation__link" href="includes/access">Login &#47; Register</a>';
               }
-              ?>
-            </a>
+            ?>
           </nav>
         </div>
       </header>
