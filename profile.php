@@ -64,6 +64,7 @@
       <?php 
       echo $firstname;
       echo $lastname;
+      echo $street;
       echo $city;
       echo 'hi';
       ?>
