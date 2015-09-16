@@ -104,9 +104,9 @@
                     </ul>
                   </div>
                   <div class="mdl-mini-footer__right-section">
-                    <button class="mdl-mini-footer__social-btn"><i class="fa fa-github"></i></button>
-                    <button class="mdl-mini-footer__social-btn"></button>
-                    <button class="mdl-mini-footer__social-btn"></button>
+                    <a href="/agreement"><i class="fa fa-github"></i></a>
+                    <a href="/agreement"></a>
+                    <a href="/agreement"></a>
                   </div>
                 </footer>
               </div>
