@@ -65,7 +65,7 @@
                 <h2>Welcome.</h2>
                 <h3>We are glad you visited.</h3>
                 <h4>Please check back soon!</h4>
-                <p><i class="material-icons fix">person_outline</i>This is what I am saying.</p>
+                <p><i class="material-icons fix">person_outline</i>This is what I am saying about this <a href="#">link</a>.</p>
                
                 
                 <?php

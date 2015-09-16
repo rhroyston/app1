@@ -28,6 +28,18 @@ p{
 .a{
   color:LightSteelBlue ;
 }
+.anchor:hover{
+  text-decoration:underline ;
+}
+.a:hover{
+  text-decoration:underline ;
+}
+.anchor:visited{
+  color:Plum ;
+}
+.a:visited{
+  color:Plum ;
+}
 .bangers{
   font-family: 'Bangers', cursive;
 }
