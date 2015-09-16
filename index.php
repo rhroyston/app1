@@ -75,7 +75,6 @@
                 <br>
                 <br>
                 <br>
-                <p><span class="xxl">&copy;</span>  <span class="xl"><b>ip</b> </span></p>
                 <br>
                 <br>
                 <br>
