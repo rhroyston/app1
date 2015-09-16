@@ -66,6 +66,7 @@
                 <h3>We are glad you visited.</h3>
                 <h4>Please check back soon!</h4>
                 <p><i class="material-icons fix">person_outline</i>This is what I am saying about this <a class="anchor" href="#">link</a>.</p>
+                <p class="xxl">&copy; ip </p>
                
                 
                 <?php
@@ -82,7 +83,7 @@
                       More Information
                     </div>
                     <ul class="mdl-mini-footer__link-list">
-                      <li><a class="anchor" href="/help">Help</a></li>
+                      <li><a href="/help">Help</a></li>
                       <li><a href="/terms">Privacy and Terms</a></li>
                       <li><a href="/agreement">User Agreement</a></li>
                     </ul>

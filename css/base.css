@@ -4,6 +4,9 @@ body {
   width: 100%;
   font-family: 'Special Elite', cursive;
 }
+.xxl{
+  font-size:3em;
+}
 h1{
   font-family: 'Bangers', cursive;
 }
