@@ -74,7 +74,7 @@
                 <h2>Welcome.</h2>
                 <h3>We are glad you visited.</h3>
                 <h4>Please check back soon!</h4>
-                <p>This is what I am saying.</p>
+                <p><i class="material-icons">person_outline</i>This is what I am saying.</p>
                 <?php
 
                   if ($a->getAuth()) {
