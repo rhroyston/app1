@@ -47,7 +47,7 @@
           <nav class="mdl-navigation">
             <?php
               if ($a->getAuth()) {
-                echo "<a class=\"mdl-navigation__link\" href=\"\"><i class=\"material-icons header-icon-adjust\">person</i> " . $a->getAuthData('firstname') . "</a>";
+                echo "<a class=\"mdl-navigation__link\" href=\"\">" . $a->getAuthData('firstname') . "</a>";
                 echo '<a class="mdl-navigation__link" href="includes/logout">logout</a>';
               } else {
                 echo '<a class="mdl-navigation__link" href="access">Login &#47; Register</a>';
