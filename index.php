@@ -5,7 +5,7 @@
   'dsn' => 'mysql://admin39halFD:Fdnv72D2mZjX@127.7.188.2/app1',
   'table' => 'users',
   'usernamecol' => 'email',
-  'passwordcol' => 'password',
+  'passwordcol' => 'pass',
   'cryptType' => 'sha1',
   'db_fields' => '*',
   'advancedsecurity' => 'true'
