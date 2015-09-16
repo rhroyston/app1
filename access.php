@@ -35,7 +35,9 @@ function loginFailed($username, $a) {
 }
 include 'includes/head.php';
 $a->start();
-if ($a->checkAuth()) { };
+if ($a->getAuth()) {
+
+}
 ?>
 <html lang="en">
     <body>
@@ -51,12 +53,7 @@ if ($a->checkAuth()) { };
                         </div>
                         <div class="mdl-tabs__panel is-active" id="login-panel">
                             <br>
-                            <?php 
-                                include 'includes/logincard.php';
-                                if ($a->getAuth()) {
-                                    echo "Private Info";
-                                }
-                            ?>
+                            <?php include 'includes/logincard.php';?>
                         </div>
                         <div class="mdl-tabs__panel" id="register-panel">
                             <br>

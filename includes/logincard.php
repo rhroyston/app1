@@ -6,7 +6,7 @@
         <form method="post" action="access">
             <div class="mdl-textfield mdl-js-textfield mdl-cell mdl-cell--12-col">
                 <input class="mdl-textfield__input" type="text" name="username" id="username" placeholder="Username..."/>
-                <span class="mdl-textfield__error"></span>
+                
             </div>
             <div class="mdl-textfield mdl-js-textfield mdl-cell mdl-cell--12-col">
                 <input class="mdl-textfield__input" type="password" name="password" id="password" placeholder="Password..." maxlength="40" />
