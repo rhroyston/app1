@@ -81,8 +81,8 @@
                     <div class="mdl-logo">
                       More Information
                     </div>
-                    <ul class="mdl-mini-footer__link-list anchor">
-                      <li><a href="/help">Help</a></li>
+                    <ul class="mdl-mini-footer__link-list">
+                      <li><a class="anchor" href="/help">Help</a></li>
                       <li><a href="/terms">Privacy and Terms</a></li>
                       <li><a href="/agreement">User Agreement</a></li>
                     </ul>
