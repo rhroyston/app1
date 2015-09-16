@@ -105,34 +105,34 @@
                             <span class="mdl-textfield__error"></span>
                         </div>
                         <div class="mdl-textfield mdl-js-textfield mdl-cell--6-col">
-                            <input class="mdl-textfield__input" type="text" name="lastname" id="lastname" maxlength="40" value="" placeholder="Last Name...">
+                            <input class="mdl-textfield__input" type="text" name="lastname" id="lastname" maxlength="40" value="<?php echo $laststname ?>" placeholder="Last Name...">
                             <span class="mdl-textfield__error"></span>
                         </div>
                         <div class="mdl-textfield mdl-js-textfield mdl-cell--12-col">
-                            <input class="mdl-textfield__input" type="text" name="street" id="street" maxlength="40" value="" placeholder="Street...">
+                            <input class="mdl-textfield__input" type="text" name="street" id="street" maxlength="40" value="<?php echo $street ?>" placeholder="Street...">
                             <span class="mdl-textfield__error"></span>
                         </div>
                         <div class="mdl-textfield mdl-js-textfield mdl-cell--4-col">
-                            <input class="mdl-textfield__input" type="text" name="city" id="city" maxlength="40" value="" placeholder="City...">
+                            <input class="mdl-textfield__input" type="text" name="city" id="city" maxlength="40" value="<?php echo $city ?>" placeholder="City...">
                             <span class="mdl-textfield__error"></span>
                         </div>
                         <div class="mdl-textfield mdl-js-textfield mdl-cell--4-col">
-                            <input class="mdl-textfield__input" type="text" name="state" id="state" maxlength="2" value="" placeholder="State...">
+                            <input class="mdl-textfield__input" type="text" name="state" id="state" maxlength="2" value="<?php echo $state ?>" placeholder="State...">
                             <span class="mdl-textfield__error"></span>
                         </div>
                         <div class="mdl-textfield mdl-js-textfield mdl-cell--4-col">
-                            <input class="mdl-textfield__input" type="text" name="zip" id="zip" maxlength="5" value="" placeholder="ZIP...">
+                            <input class="mdl-textfield__input" type="text" name="zip" id="zip" maxlength="5" value="<?php echo $zip ?>" placeholder="ZIP...">
                             <span class="mdl-textfield__error"></span>
                         </div>
                         <div class="mdl-textfield mdl-js-textfield mdl-cell--4-col">
-                            <input class="mdl-textfield__input" type="text" name="birthday" id="birthday" pattern="(0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])[- /.](19|20)\d\d" placeholder="Birthday...">
+                            <input class="mdl-textfield__input" type="text" name="birthday" id="birthday" value="<?php echo $birthday ?>" pattern="(0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])[- /.](19|20)\d\d" placeholder="Birthday...">
                             <span class="mdl-textfield__error">Format xx/xx/xxxx</span>
                         </div>
                         <div class="mdl-textfield mdl-js-textfield mdl-cell--2-col">
             
                         </div>
                         <div class="mdl-textfield mdl-js-textfield mdl-cell--4-col">
-                            <input class="mdl-textfield__input" type="text" maxlength="13" name="phone" id="phone" placeholder="Phone...">
+                            <input class="mdl-textfield__input" type="text" maxlength="13" name="phone" id="phone" value="<?php echo $phone ?>" placeholder="Phone...">
                             <span class="mdl-textfield__error"></span>
                         </div>
                         <br>
