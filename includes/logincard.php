@@ -1,8 +1,8 @@
-<div class="mdl-card mdl-shadow--4dp">
+<div class="mdl-card mdl-card-std mdl-shadow--4dp">
     <div class="mdl-card__title">
         <h2 class="mdl-card__title-text">Sign In</h2>
     </div>
-    <div class="mdl-card__supporting-text mdl-grid">
+    <div class=" mdl-grid">
         <form method="post" action="access">
             <div class="mdl-textfield mdl-js-textfield mdl-cell mdl-cell--12-col">
                 <input class="mdl-textfield__input" type="text" name="username" id="username" placeholder="Username..."/>
