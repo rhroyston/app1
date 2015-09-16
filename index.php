@@ -25,7 +25,7 @@
 ?>
 <!-- Produced By Ron Royston, ron@stndip.com -->
 <html lang="en">
-  <body>
+  <body class="special-elite">
     <!-- Uses a header that scrolls with the text, rather than staying locked at the top -->
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
       <header class="mdl-layout__header mdl-layout__header--scroll">
