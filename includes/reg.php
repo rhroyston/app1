@@ -29,24 +29,25 @@
   function loginFunction() { 
       // show login page 
   } 
-function loginCallback($username, $a) { 
-    header("Location: http://app1-rhroyston.rhcloud.com");
-    die();
-}
-function logoutCallback($username, $a) { 
-    header("Location: http://app1-rhroyston.rhcloud.com");
-    die();
-}
-function loginSuccess($username, $a) { 
-    // write successful login to log 
-} 
-function loginFailed($username, $a) { 
-    // write failed login to log 
-}
-  include 'includes/head.php';
-                  if ($a->getAuth()) {
-                    echo "One can only see this if he is logged in!";
-                  }
+    function loginCallback($username, $a) { 
+        header("Location: http://app1-rhroyston.rhcloud.com");
+        die();
+    }
+    function logoutCallback($username, $a) { 
+        header("Location: http://app1-rhroyston.rhcloud.com");
+        die();
+    }
+    function loginSuccess($username, $a) { 
+        // write successful login to log 
+    } 
+    function loginFailed($username, $a) { 
+        // write failed login to log 
+    }
+  //include 'includes/head.php';
+    //              if ($a->getAuth()) {
+      //              echo "One can only see this if he is logged in!";
+        //          }
+header("Location: http://app1-rhroyston.rhcloud.com");
 ?>
 <!-- Produced By Ron Royston, ron@stndip.com -->
 <html lang="en">
