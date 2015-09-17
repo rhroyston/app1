@@ -79,7 +79,7 @@
                 <br>
                 <br>
                 <br>
-                <span class="mdl-layout-title font1 xxl">rack!</span>
+                <span class=" font1 xxl">rack!</span>
                 <br>
                 <br>
                 <br>
