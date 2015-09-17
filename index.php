@@ -31,7 +31,7 @@
       <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--white mdl-color--grey-600 ">
         <div class="mdl-layout__header-row">
           <!-- Title -->
-          <span class="mdl-layout-title bangers xl">rack!</span>
+          <span class="mdl-layout-title font1 xl">rack!</span>
           <!-- Add spacer, to align navigation to the right -->
           <div class="mdl-layout-spacer"></div>
           <!-- Navigation -->
@@ -65,7 +65,7 @@
         </div>
       </header>
         <div class="mdl-layout__drawer">
-          <span class="mdl-layout-title bangers">rack!</span>
+          <span class="mdl-layout-title font1">rack!</span>
           <nav class="mdl-navigation">
             <a class="mdl-navigation__link" href="articles">Articles</a>
             <a class="mdl-navigation__link" href="multimedia">Multimedia</a>

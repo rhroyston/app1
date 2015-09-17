@@ -44,7 +44,7 @@
       <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--white mdl-color--grey-600">
         <div class="mdl-layout__header-row">
           <!-- Title -->
-          <span class="mdl-layout-title bangers xl">rack!</span>
+          <span class="mdl-layout-title font1 xl">rack!</span>
           <!-- Add spacer, to align navigation to the right -->
           <div class="mdl-layout-spacer"></div>
           <!-- Navigation -->
@@ -77,7 +77,7 @@
         </div>
       </header>
       <div class="mdl-layout__drawer">
-        <span class="mdl-layout-title bangers">rack!</span>
+        <span class="mdl-layout-title font1">rack!</span>
         <nav class="mdl-navigation">
           <a class="mdl-navigation__link" href="articles">Articles</a>
           <a class="mdl-navigation__link" href="multimedia">Multimedia</a>
@@ -144,7 +144,7 @@
                             <span class="mdl-textfield__error"></span>
                         </div>
                         <br>
-                        <button type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--primary font2">
+                        <button type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--primary font1">
                             Register
                         </button>
                     </form>
