@@ -10,6 +10,8 @@ $options = array(
   'db_fields' => '*',
   'advancedsecurity' => 'true'
 );
+function loginFunction($username, $a) {
+}
 $a = new Auth("DB", $options, "loginFunction", $optional);
 $a->setLoginCallback('loginCallback');
 $a->setLogoutCallback('logoutCallback');
