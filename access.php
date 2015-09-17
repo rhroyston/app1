@@ -31,7 +31,7 @@ function logoutCallback($username, $a) {
 function loginSuccess($username, $a) {
     
     
-    $mail = Mail::factory("mail");
+    $mail = Mail::factory("sendmail");
 
     $headers = array("From"=>"me@example.com", "Subject"=>"Test Mail");
     $body = "This is a test!";
