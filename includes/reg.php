@@ -1,6 +1,6 @@
 <?php
 require_once "Auth.php";
-$title = 'Home';  
+$title = 'Reg';  
 $options = array(
   'dsn' => 'mysql://admin39halFD:Fdnv72D2mZjX@127.7.188.2/app1',
   'table' => 'users',
@@ -13,7 +13,9 @@ $options = array(
 $a = new Auth("DB", $options, "loginFunction", $optional);
 $a->setLoginCallback('loginCallback');
 $a->setLogoutCallback('logoutCallback');
-$a->addUser($_POST['username'], $_POST['password'], array(
+$a->start();
+
+if ($a->addUser($_POST['username'], $_POST['password'], array(
   'firstname' => $_POST['firstname'], 
   'lastname' => $_POST['lastname'],
   'street' => $_POST['street'],
@@ -22,10 +24,14 @@ $a->addUser($_POST['username'], $_POST['password'], array(
   'zip' => $_POST['zip'],
   'birthday' => $_POST['birthday'],
   'phone' => $_POST['phone'],
-));
-$a->start();
-function loginFunction() { 
-} 
+))){
+    loginCallback();
+}else{
+    header("Location: http://app1-rhroyston.rhcloud.com/access");
+    die();    
+};
+//$a->start();
+
 function loginCallback($username, $a) {
     $from = "ron@stndip.com";
     $to = "rhroyston@gmail.com";
