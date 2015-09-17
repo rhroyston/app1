@@ -92,6 +92,11 @@
                   
                 ?>
                 <footer class="mdl-mini-footer">
+                  <div class="mdl-mini-footer__left-section">
+                    <div class="mdl-logo">
+                      Follow
+                    </div>
+                  </div>
                   <div class=" xl mdl-typography--text-center">
                     <a href="https://github.com/rhroyston"><i class="fa fa-github"></i></a>&nbsp;&nbsp;
                     <a href="http://stackexchange.com/users/5863967/ron-royston"><i class="fa fa-stack-exchange"></i></a>&nbsp;&nbsp;
