@@ -77,7 +77,7 @@
             <section class="section--center mdl-grid mdl-grid--no-spacing">
               <div class="mdl-cell mdl-cell--12-col mdl-cell--middle mdl-typography--text-center">
                 <!-- Your content goes here -->
-                <h1 class="special-elite">You can&#39;t make this stuff up.</h1>
+                <h1 class="font2">You can&#39;t make this stuff up.</h1>
                 <h2>Welcome.</h2>
                 <br>
                 <br>
