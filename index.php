@@ -94,19 +94,14 @@
                 <footer class="mdl-mini-footer">
                   <div class="mdl-mini-footer__left-section">
                     <div class="mdl-logo">
-                      More Information
+                      Follow
                     </div>
-                    <ul class="mdl-mini-footer__link-list">
-                      <li><a href="/help">Help</a></li>
-                      <li><a href="/terms">Privacy and Terms</a></li>
-                      <li><a href="/agreement">User Agreement</a></li>
-                    </ul>
                   </div>
-                  <div class="mdl-mini-footer__right-section xl black">
-                    <a href="https://github.com/rhroyston"><i class="fa fa-github"></i></a>&nbsp;
-                    <a href="http://stackexchange.com/users/5863967/ron-royston"><i class="fa fa-stack-exchange"></i></a>&nbsp;
-                    <a href="https://www.youtube.com/channel/UCrezXaWsBFPst9M2Ur3oX5w" target="_blank"><i class="fa fa-youtube-play"></i></a>&nbsp;
-                  </div>
+                  <ul class="mdl-mini-footer__link-list xl mdl-typography--text-center">
+                    <li><a href="https://github.com/rhroyston"><i class="fa fa-github"></i></a></li>&nbsp;&nbsp;
+                    <li><a href="http://stackexchange.com/users/5863967/ron-royston"><i class="fa fa-stack-exchange"></i></a></li>&nbsp;&nbsp;
+                    <li><a href="https://www.youtube.com/channel/UCrezXaWsBFPst9M2Ur3oX5w" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+                  </ul>
                 </footer>
               </div>
             </section>
