@@ -94,7 +94,7 @@
                 <footer class="mdl-mini-footer">
                   <div class="mdl-mini-footer__left-section">
                     <div class="mdl-logo">
-                      Follow
+
                     </div>
                   </div>
                   <div class=" xl mdl-typography--text-center">
