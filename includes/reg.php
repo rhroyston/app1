@@ -27,35 +27,15 @@ if ($a->addUser($_POST['username'], $_POST['password'], array(
 ))){
     loginCallback();
 }else{
-    header("Location: http://app1-rhroyston.rhcloud.com/access");
-    die();    
+    logoutCallback();   
 };
 //$a->start();
 
 function loginCallback($username, $a) {
-    $from = "ron@stndip.com";
-    $to = "rhroyston@gmail.com";
-    $subject = "Rack Login";
-    $body = "Hi,\n\nLogin successful";
-    $host = "smtpout.secureserver.net";
-    $username = "ron@stndip.com";
-    $password = 'nic0tine';
-    $headers = array ('From' => $from,
-    'To' => $to,
-    'Subject' => $subject);
-    $smtp = Mail::factory('smtp',
-    array ('host' => $host,
-     'auth' => true,
-     'username' => $username,
-     'password' => $password));
-    
-    $mail = $smtp->send($to, $headers, $body);
-    header("Location: http://app1-rhroyston.rhcloud.com");
-    die();
+echo 'success';
 }
 function logoutCallback($username, $a) { 
-    header("Location: http://app1-rhroyston.rhcloud.com");
-    die();
+echo 'failure';
 }
 
 //header("Location: http://app1-rhroyston.rhcloud.com");
