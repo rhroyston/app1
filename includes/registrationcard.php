@@ -3,7 +3,7 @@
         <h2 class="mdl-card__title-text">Register</h2>
     </div>  
     <div class="mdl-card__supporting-text mdl-grid">
-        <form method="post" action="includes/reg">
+        <form method="post" action="access">
             <div class="mdl-textfield mdl-js-textfield mdl-cell--6-col">    
                 <input class="mdl-textfield__input" type="text" minlength="3" name="username" id="username" value="">
                 <span class="mdl-textfield__error">Minimum Length 3 Characters</span>
@@ -56,13 +56,13 @@
                 <span class="mdl-textfield__error">Format xx/xx/xxxx</span>
                 <label class="mdl-textfield__label" for="birthday">Birthday...</label>
             </div>
-            <div class="mdl-textfield mdl-js-textfield mdl-cell--2-col">
-
-            </div>
             <div class="mdl-textfield mdl-js-textfield mdl-cell--4-col">
                 <input class="mdl-textfield__input" type="text" maxlength="13" name="phone" id="phone">
                 <span class="mdl-textfield__error"></span>
                 <label class="mdl-textfield__label" for="phone">Phone...</label>
+            </div>
+            <div class="mdl-textfield mdl-js-textfield mdl-cell--2-col">
+                <input type="hidden" name="register" value="True">
             </div>
             <br>
             <button type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--primary">
