@@ -106,7 +106,7 @@
                   <div class="mdl-mini-footer__right-section xl black">
                     <a href="https://github.com/rhroyston"><i class="fa fa-github"></i></a>&nbsp;
                     <a href="http://stackexchange.com/users/5863967/ron-royston"><i class="fa fa-stack-exchange"></i></a>&nbsp;
-                    <a href="https://www.youtube.com/channel/UCrezXaWsBFPst9M2Ur3oX5w" target="_blank"><i class="fa fa-youtube-play"></i></a>
+                    <a href="https://www.youtube.com/channel/UCrezXaWsBFPst9M2Ur3oX5w" target="_blank"><i class="fa fa-youtube-play"></i></a>&nbsp;
                   </div>
                 </footer>
               </div>
