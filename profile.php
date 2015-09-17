@@ -92,59 +92,59 @@
                 <div class="mdl-card__title">
                     <h2 class="mdl-card__title-text">Contact Information</h2>
                 </div>  
-                <div class="mdl-card__supporting-text mdl-grid special-elite">
+                <div class="mdl-card__supporting-text mdl-grid">
                     <form method="post" action="includes/reg">
-                        <div class="mdl-textfield mdl-js-textfield mdl-cell--6-col">    
+                        <div class="mdl-textfield mdl-js-textfield mdl-cell--6-col font2">    
                             <input class="mdl-textfield__input" type="text" minlength="3" name="username" id="username" value="<?php echo $email ?>" placeholder="Username...">
                             <span class="mdl-textfield__error">Minimum Length 3 Characters</span>
                         </div>
-                        <div class="mdl-textfield mdl-js-textfield mdl-cell--6-col">
+                        <div class="mdl-textfield mdl-js-textfield mdl-cell--6-col font2">
                         </div>
-                        <div class="mdl-textfield mdl-js-textfield mdl-cell--6-col">
+                        <div class="mdl-textfield mdl-js-textfield mdl-cell--6-col font2">
                             <input class="mdl-textfield__input" type="password" minlength="5" name="password" id="password" value="" placeholder="Password...">
                             <span class="mdl-textfield__error">Minumum Length 5 Characters</span>
                         </div>
-                        <div class="mdl-textfield mdl-js-textfield mdl-cell--6-col">
+                        <div class="mdl-textfield mdl-js-textfield mdl-cell--6-col font2">
                             <input class="mdl-textfield__input" type="password" minlength="5" name="confirmPassword" id="confirmPassword" value="" placeholder="Confirm Password...">
                             <span class="mdl-textfield__error">Minumum Length 5 Characters</span>
                         </div>
-                        <div class="mdl-textfield mdl-js-textfield mdl-cell--6-col">
+                        <div class="mdl-textfield mdl-js-textfield mdl-cell--6-col font2">
                             <input class="mdl-textfield__input" type="text" name="firstname" id="firstname" maxlength="20" value="<?php echo $firstname ?>" placeholder="First Name...">
                             <span class="mdl-textfield__error"></span>
                         </div>
-                        <div class="mdl-textfield mdl-js-textfield mdl-cell--6-col">
+                        <div class="mdl-textfield mdl-js-textfield mdl-cell--6-col font2">
                             <input class="mdl-textfield__input" type="text" name="lastname" id="lastname" maxlength="40" value="<?php echo $lastname ?>" placeholder="Last Name...">
                             <span class="mdl-textfield__error"></span>
                         </div>
-                        <div class="mdl-textfield mdl-js-textfield mdl-cell--12-col">
+                        <div class="mdl-textfield mdl-js-textfield mdl-cell--12-col font2">
                             <input class="mdl-textfield__input" type="text" name="street" id="street" maxlength="40" value="<?php echo $street ?>" placeholder="Street...">
                             <span class="mdl-textfield__error"></span>
                         </div>
-                        <div class="mdl-textfield mdl-js-textfield mdl-cell--4-col">
+                        <div class="mdl-textfield mdl-js-textfield mdl-cell--4-col font2">
                             <input class="mdl-textfield__input" type="text" name="city" id="city" maxlength="40" value="<?php echo $city ?>" placeholder="City...">
                             <span class="mdl-textfield__error"></span>
                         </div>
-                        <div class="mdl-textfield mdl-js-textfield mdl-cell--4-col">
+                        <div class="mdl-textfield mdl-js-textfield mdl-cell--4-col font2">
                             <input class="mdl-textfield__input" type="text" name="state" id="state" maxlength="2" value="<?php echo $state ?>" placeholder="State...">
                             <span class="mdl-textfield__error"></span>
                         </div>
-                        <div class="mdl-textfield mdl-js-textfield mdl-cell--4-col">
+                        <div class="mdl-textfield mdl-js-textfield mdl-cell--4-col font2">
                             <input class="mdl-textfield__input" type="text" name="zip" id="zip" maxlength="5" value="<?php echo $zip ?>" placeholder="ZIP...">
                             <span class="mdl-textfield__error"></span>
                         </div>
-                        <div class="mdl-textfield mdl-js-textfield mdl-cell--4-col">
+                        <div class="mdl-textfield mdl-js-textfield mdl-cell--4-col font2">
                             <input class="mdl-textfield__input" type="text" name="birthday" id="birthday" value="<?php echo $birthday ?>" placeholder="Birthday...">
                             <span class="mdl-textfield__error">Format xx/xx/xxxx</span>
                         </div>
-                        <div class="mdl-textfield mdl-js-textfield mdl-cell--2-col">
+                        <div class="mdl-textfield mdl-js-textfield mdl-cell--2-col font2">
             
                         </div>
-                        <div class="mdl-textfield mdl-js-textfield mdl-cell--4-col">
+                        <div class="mdl-textfield mdl-js-textfield mdl-cell--4-col font2">
                             <input class="mdl-textfield__input" type="text" maxlength="13" name="phone" id="phone" value="<?php echo $phone ?>" placeholder="Phone...">
                             <span class="mdl-textfield__error"></span>
                         </div>
                         <br>
-                        <button type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--primary">
+                        <button type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--primary font2">
                             Register
                         </button>
                     </form>
