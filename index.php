@@ -60,7 +60,7 @@
         <main class="mdl-layout__content">
           <div class="page-content">
             <section class="section--center mdl-grid mdl-grid--no-spacing">
-              <div class="mdl-cell mdl-cell--12-col">
+              <div class="mdl-cell mdl-cell--12-col mdl-cell--middle">
                 <!-- Your content goes here -->
                 <h1 class="special-elite">This is my homepage</h1>
                 <h2>Welcome.</h2>
