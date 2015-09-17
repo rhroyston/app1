@@ -41,7 +41,7 @@
 <html lang="en">
   <body>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-      <header class="mdl-layout__header mdl-layout__header--scroll">
+      <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--white mdl-color--grey-600">
         <div class="mdl-layout__header-row">
           <!-- Title -->
           <span class="mdl-layout-title">Title</span>

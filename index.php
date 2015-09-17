@@ -28,7 +28,7 @@
   <body class="">
     <!-- Uses a header that scrolls with the text, rather than staying locked at the top -->
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-      <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--white mdl-color--grey-100 ">
+      <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--white mdl-color--grey-600 ">
         <div class="mdl-layout__header-row">
           <!-- Title -->
           <span class="mdl-layout-title bangers xl">rack!</span>
