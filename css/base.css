@@ -87,11 +87,11 @@ margin-right:10%;
 }
 .mdl-card-std > .mdl-card__title {
   color: #fff;
-  background: #3F51B5; 
+  background: #9E9E9E; 
 }
 .mdl-card-wide > .mdl-card__title {
   color: #fff;
-  background: #3F51B5;
+  background: #9E9E9E;
 }
 .mdl-card-wide.mdl-card {
   width: 512px;
