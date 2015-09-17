@@ -27,6 +27,10 @@ function logoutCallback($username, $a) {
     header("Location: http://app1-rhroyston.rhcloud.com");
     die();
 }
+function registeredCallback($username, $a) { 
+    header("Location: http://app1-rhroyston.rhcloud.com?reg");
+    die();
+}
 //---- REGISTER 
 if ($_POST['register']) {
     $a->setLoginCallback('registeredCallback');
