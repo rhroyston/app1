@@ -34,31 +34,11 @@ function registeredCallback($username, $a) {
     //header("Location: http://app1-rhroyston.rhcloud.com?reg");
     //die();
 }
-//---- REGISTER 
-if ($_POST['register']) {
-    $a->setLoginCallback('registeredCallback');
-    $activation = md5(uniqid(rand(), true));
-    // can add field testing here
-    if ($a->addUser($_POST['username'], $_POST['password'], array(
-      'firstname' => $_POST['firstname'], 
-      'lastname' => $_POST['lastname'],
-      'street' => $_POST['street'],
-      'city' => $_POST['city'],
-      'state' => $_POST['state'],
-      'zip' => $_POST['zip'],
-      'birthday' => $_POST['birthday'],
-      'phone' => $_POST['phone'],
-      'activation' => $activation
-    ))){
-        registeredCallback();
-    }else{
-        //err here 
-    };
-}else {
+
 // normal login
 $a->setLoginCallback('loginCallback');
 $a -> start ();
-} 
+//} 
 
 if ($a->getAuth()) {}
 include 'includes/head.php';
