@@ -31,11 +31,39 @@ function logoutCallback($username, $a) {
 function loginSuccess($username, $a) {
     
     
-    $mail = Mail::factory("sendmail");
-
-    $headers = array("From"=>"me@example.com", "Subject"=>"Test Mail");
-    $body = "This is a test!";
-    $mail->send("ron@stndip.com", $headers, $body);    
+   // Identify the sender, recipient, mail subject, and body
+   $sender    = "rhroyston@gmail.com";
+   $recipient = "ron@stndip.com";
+   $subject   = "Test mail";
+   $body      = "Login was successful";
+ 
+   // Identify the mail server, username, password, and port
+   $server   = "ssl://smtp.gmail.com";
+   $username = "rhroyston@gmail.com";
+   $password = "racks0nRacks";
+   $port     = "465";
+ 
+   // Set up the mail headers
+   $headers = array(
+      "From"    => $sender,
+      "To"      => $recipient,
+      "Subject" => $subject
+   );
+ 
+   // Configure the mailer mechanism
+   $smtp = Mail::factory("smtp",
+      array(
+        "host"     => $server,
+        "username" => $username,
+        "password" => $password,
+        "auth"     => true,
+        "port"     => 465
+      )
+   );
+ 
+   // Send the message
+   $mail = $smtp->send($recipient, $headers, $body);
+   
     
     
     // write successful login to log 
