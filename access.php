@@ -21,19 +21,9 @@ function loginFunction() {
     // show login page 
 } 
 function loginCallback($username, $a) { 
-    header("Location: http://app1-rhroyston.rhcloud.com");
-    die();
-}
-function logoutCallback($username, $a) { 
-    header("Location: http://app1-rhroyston.rhcloud.com");
-    die();
-}
-function loginSuccess($username, $a) {
+    //header("Location: http://app1-rhroyston.rhcloud.com");
+    //die();
     
-    
-   // Identify the sender, recipient, mail subject, and body
-
-
 $from = "ron@stndip.com";
 $to = "rhroyston@gmail.com";
 $subject = "What's up";
@@ -54,7 +44,13 @@ $body = "Hi,\n\nHow are you? What is happening";
  
  $mail = $smtp->send($to, $headers, $body);
  
- 
+}
+function logoutCallback($username, $a) { 
+    header("Location: http://app1-rhroyston.rhcloud.com");
+    die();
+}
+function loginSuccess($username, $a) {
+
 } 
 function loginFailed($username, $a) { 
     // write failed login to log 
