@@ -103,10 +103,10 @@
                       <li><a href="/agreement">User Agreement</a></li>
                     </ul>
                   </div>
-                  <div class="mdl-mini-footer__right-section">
-                    <a href="/agreement"><i class="fa fa-github"></i></a>
-                    <a href="/agreement"></a>
-                    <a href="/agreement"></a>
+                  <div class="mdl-mini-footer__right-section xl">
+                    <a href="https://github.com/rhroyston"><i class="fa fa-github"></i></a>
+                    <a href="http://stackexchange.com/users/5863967/ron-royston"><i class="fa fa-stack-exchange"></i></a>
+                    <a href="https://www.youtube.com/channel/UCrezXaWsBFPst9M2Ur3oX5w" target="_blank"><i class="fa fa-youtube-play"></i></a>
                   </div>
                 </footer>
               </div>
