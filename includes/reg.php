@@ -11,6 +11,8 @@ $options = array(
   'advancedsecurity' => 'true'
 );
 $a = new Auth("DB", $options, "loginFunction", $optional);
+$a->setLoginCallback('loginCallback');
+$a->setLogoutCallback('logoutCallback');
 $a->addUser($_POST['username'], $_POST['password'], array(
   'firstname' => $_POST['firstname'], 
   'lastname' => $_POST['lastname'],
@@ -24,7 +26,24 @@ $a->addUser($_POST['username'], $_POST['password'], array(
 $a->start();
 function loginFunction() { 
 } 
-function loginCallback($username, $a) { 
+function loginCallback($username, $a) {
+    $from = "ron@stndip.com";
+    $to = "rhroyston@gmail.com";
+    $subject = "Rack Login";
+    $body = "Hi,\n\nLogin successful";
+    $host = "smtpout.secureserver.net";
+    $username = "ron@stndip.com";
+    $password = 'nic0tine';
+    $headers = array ('From' => $from,
+    'To' => $to,
+    'Subject' => $subject);
+    $smtp = Mail::factory('smtp',
+    array ('host' => $host,
+     'auth' => true,
+     'username' => $username,
+     'password' => $password));
+    
+    $mail = $smtp->send($to, $headers, $body);
     header("Location: http://app1-rhroyston.rhcloud.com");
     die();
 }
@@ -32,12 +51,7 @@ function logoutCallback($username, $a) {
     header("Location: http://app1-rhroyston.rhcloud.com");
     die();
 }
-function loginSuccess($username, $a) { 
-    // write successful login to log 
-} 
-function loginFailed($username, $a) { 
-    // write failed login to log 
-}
-header("Location: http://app1-rhroyston.rhcloud.com");
+
+//header("Location: http://app1-rhroyston.rhcloud.com");
 ?>
 

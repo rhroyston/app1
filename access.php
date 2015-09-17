@@ -21,29 +21,8 @@ function loginFunction() {
     // show login page 
 } 
 function loginCallback($username, $a) { 
-    //header("Location: http://app1-rhroyston.rhcloud.com");
-    //die();
-    
-$from = "ron@stndip.com";
-$to = "rhroyston@gmail.com";
-$subject = "What's up";
-$body = "Hi,\n\nHow are you? What is happening";
- 
- $host = "smtpout.secureserver.net";
- $username = "ron@stndip.com";
- $password = 'nic0tine';
- 
- $headers = array ('From' => $from,
-   'To' => $to,
-   'Subject' => $subject);
- $smtp = Mail::factory('smtp',
-   array ('host' => $host,
-     'auth' => true,
-     'username' => $username,
-     'password' => $password));
- 
- $mail = $smtp->send($to, $headers, $body);
- 
+    header("Location: http://app1-rhroyston.rhcloud.com");
+    die();
 }
 function logoutCallback($username, $a) { 
     header("Location: http://app1-rhroyston.rhcloud.com");
