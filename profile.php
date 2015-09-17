@@ -101,14 +101,6 @@
                         <div class="mdl-textfield mdl-js-textfield mdl-cell--6-col font2">
                         </div>
                         <div class="mdl-textfield mdl-js-textfield mdl-cell--6-col font2">
-                            <input class="mdl-textfield__input" type="password" minlength="5" name="password" id="password" value="" placeholder="Password...">
-                            <span class="mdl-textfield__error">Minumum Length 5 Characters</span>
-                        </div>
-                        <div class="mdl-textfield mdl-js-textfield mdl-cell--6-col font2">
-                            <input class="mdl-textfield__input" type="password" minlength="5" name="confirmPassword" id="confirmPassword" value="" placeholder="Confirm Password...">
-                            <span class="mdl-textfield__error">Minumum Length 5 Characters</span>
-                        </div>
-                        <div class="mdl-textfield mdl-js-textfield mdl-cell--6-col font2">
                             <input class="mdl-textfield__input" type="text" name="firstname" id="firstname" maxlength="20" value="<?php echo $firstname ?>" placeholder="First Name...">
                             <span class="mdl-textfield__error"></span>
                         </div>
@@ -135,9 +127,6 @@
                         <div class="mdl-textfield mdl-js-textfield mdl-cell--4-col font2">
                             <input class="mdl-textfield__input" type="text" name="birthday" id="birthday" value="<?php echo $birthday ?>" placeholder="Birthday...">
                             <span class="mdl-textfield__error">Format xx/xx/xxxx</span>
-                        </div>
-                        <div class="mdl-textfield mdl-js-textfield mdl-cell--2-col font2">
-            
                         </div>
                         <div class="mdl-textfield mdl-js-textfield mdl-cell--4-col font2">
                             <input class="mdl-textfield__input" type="text" maxlength="13" name="phone" id="phone" value="<?php echo $phone ?>" placeholder="Phone...">
