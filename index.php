@@ -79,7 +79,7 @@
                 <br>
                 <br>
                 <br>
-                <span class=" font1 xxl">rack!</span>
+                <span class=" font1 xxl">r </span>
                 <br>
                 <br>
                 <br>
