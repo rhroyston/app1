@@ -50,7 +50,7 @@ if ($_POST['register']) {
       'phone' => $_POST['phone'],
       'activation' => $activation
     ))){
-        //send reg email
+        registeredCallback();
     }else{
         //err here 
     };
