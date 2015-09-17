@@ -48,7 +48,7 @@
         </div>
       </header>
         <div class="mdl-layout__drawer">
-          <span class="mdl-layout-title bangers">standard ip</span>
+          <span class="mdl-layout-title bangers">rack!</span>
           <nav class="mdl-navigation">
             <a class="mdl-navigation__link" href="articles">Articles</a>
             <a class="mdl-navigation__link" href="multimedia">Multimedia</a>
