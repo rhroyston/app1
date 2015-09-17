@@ -1,5 +1,6 @@
 <?php
 require_once "Auth.php";
+include('Mail.php');
 $title = 'Access';  
 $options = array(
 'dsn' => 'mysql://admin39halFD:Fdnv72D2mZjX@127.7.188.2/app1',
@@ -27,7 +28,16 @@ function logoutCallback($username, $a) {
     header("Location: http://app1-rhroyston.rhcloud.com");
     die();
 }
-function loginSuccess($username, $a) { 
+function loginSuccess($username, $a) {
+    
+    
+    $mail = Mail::factory("mail");
+
+    $headers = array("From"=>"me@example.com", "Subject"=>"Test Mail");
+    $body = "This is a test!";
+    $mail->send("ron@stndip.com", $headers, $body);    
+    
+    
     // write successful login to log 
 } 
 function loginFailed($username, $a) { 
