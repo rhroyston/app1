@@ -51,12 +51,15 @@ function loginCallback($username, $a) {
      'password' => $password));
     
     $mail = $smtp->send($to, $headers, $body);
-    header("Location: http://app1-rhroyston.rhcloud.com");
-    die();
+    redirectHome();
 }
 function logoutCallback($username, $a) { 
     header("Location: http://app1-rhroyston.rhcloud.com/access");
     die();
+}
+function redirectHome(){
+    header("Location: http://app1-rhroyston.rhcloud.com");
+    die();    
 }
 
 //header("Location: http://app1-rhroyston.rhcloud.com");
