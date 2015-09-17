@@ -139,11 +139,13 @@
                 <div class="mdl-card__supporting-text mdl-grid">
                     <form method="post" action="includes/reg">
                         <div class="mdl-textfield mdl-js-textfield mdl-cell--6-col font2">
-                            <input class="mdl-textfield__input" type="password" minlength="5" name="password" id="password" value="" placeholder="Password...">
+                            <input class="mdl-textfield__input" type="password" minlength="5" name="password" id="password" value="">
+                            <label class="mdl-textfield__label" for="password">Password...</label>
                             <span class="mdl-textfield__error">Minumum Length 5 Characters</span>
                         </div>
                         <div class="mdl-textfield mdl-js-textfield mdl-cell--6-col font2">
-                            <input class="mdl-textfield__input" type="password" minlength="5" name="confirmPassword" id="confirmPassword" value="" placeholder="Confirm Password...">
+                            <input class="mdl-textfield__input" type="password" minlength="5" name="confirmPassword" id="confirmPassword" value="">
+                            <label class="mdl-textfield__label" for="password">Password...</label>
                             <span class="mdl-textfield__error">Minumum Length 5 Characters</span>
                         </div>
                         <br>
