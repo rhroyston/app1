@@ -132,7 +132,7 @@
                 </div>
             </div>
             
-            <div class="mdl-card mdl-card-wide mdl-shadow--4dp">
+            <div class="mdl-card mdl-card-std mdl-shadow--4dp">
                 <div class="mdl-card__title">
                     <h2 class="mdl-card__title-text">Change Password</h2>
                 </div>  
