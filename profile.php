@@ -126,12 +126,34 @@
                         </div>
                         <br>
                         <button type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--primary">
-                            Register
+                            Update
                         </button>
                     </form>
                 </div>
             </div>
-
+            
+            <div class="mdl-card mdl-card-wide mdl-shadow--4dp">
+                <div class="mdl-card__title">
+                    <h2 class="mdl-card__title-text">Change Password</h2>
+                </div>  
+                <div class="mdl-card__supporting-text mdl-grid">
+                    <form method="post" action="includes/reg">
+                        <div class="mdl-textfield mdl-js-textfield mdl-cell--6-col font2">
+                            <input class="mdl-textfield__input" type="password" minlength="5" name="password" id="password" value="" placeholder="Password...">
+                            <span class="mdl-textfield__error">Minumum Length 5 Characters</span>
+                        </div>
+                        <div class="mdl-textfield mdl-js-textfield mdl-cell--6-col font2">
+                            <input class="mdl-textfield__input" type="password" minlength="5" name="confirmPassword" id="confirmPassword" value="" placeholder="Confirm Password...">
+                            <span class="mdl-textfield__error">Minumum Length 5 Characters</span>
+                        </div>
+                        <br>
+                        <button type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--primary">
+                            Update
+                        </button>
+                    </form>
+                </div>
+            </div>            
+            
           </div>
         </div>
         <footer class="demo-footer mdl-mini-footer">
