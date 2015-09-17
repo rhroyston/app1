@@ -62,11 +62,8 @@
             <section class="section--center mdl-grid mdl-grid--no-spacing">
               <div class="mdl-cell mdl-cell--12-col mdl-cell--middle mdl-typography--text-center">
                 <!-- Your content goes here -->
-                <h1 class="special-elite">This is my homepage</h1>
+                <h1 class="special-elite">You can&#39;t make this stuff up.</h1>
                 <h2>Welcome.</h2>
-                <h3>We are glad you visited.</h3>
-                <h4>Please check back soon!</h4>
-                <p><i class="material-icons fix">person_outline</i>This is what I am saying about this <a class="anchor" href="#">link</a>.</p>
                 <br>
                 <br>
                 <br>
