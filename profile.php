@@ -44,7 +44,7 @@
       <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--white mdl-color--grey-600">
         <div class="mdl-layout__header-row">
           <!-- Title -->
-          <span class="mdl-layout-title">Title</span>
+          <span class="mdl-layout-title bangers xl">rack!</span>
           <!-- Add spacer, to align navigation to the right -->
           <div class="mdl-layout-spacer"></div>
           <!-- Navigation -->
@@ -76,20 +76,14 @@
           </nav>
         </div>
       </header>
-      <br>
-      <br>
-      <?php echo "hi " . $email ; ?>
-      <br>
-      <br>
-        <div class="mdl-layout__drawer">
-          <span class="mdl-layout-title">Title</span>
-          <nav class="mdl-navigation">
-            <a class="mdl-navigation__link" href="">Link</a>
-            <a class="mdl-navigation__link" href="">Link</a>
-            <a class="mdl-navigation__link" href="">Link</a>
-            <a class="mdl-navigation__link" href="">Link</a>
-          </nav>
-        </div>
+      <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title bangers">rack!</span>
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="articles">Articles</a>
+          <a class="mdl-navigation__link" href="multimedia">Multimedia</a>
+          <a class="mdl-navigation__link" href="downloads">Downloads</a>
+        </nav>
+      </div>
       <main class="mdl-layout__content">
         <div class="page-content">
           <div class="section--center mdl-grid mdl-grid--no-spacing">
