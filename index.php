@@ -97,11 +97,11 @@
                       Follow
                     </div>
                   </div>
-                  <ul class=" xl mdl-typography--text-center">
-                    <li><a href="https://github.com/rhroyston"><i class="fa fa-github"></i></a></li>&nbsp;&nbsp;
-                    <li><a href="http://stackexchange.com/users/5863967/ron-royston"><i class="fa fa-stack-exchange"></i></a></li>&nbsp;&nbsp;
-                    <li><a href="https://www.youtube.com/channel/UCrezXaWsBFPst9M2Ur3oX5w" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
-                  </ul>
+                  <div class=" xl mdl-typography--text-center">
+                    <a href="https://github.com/rhroyston"><i class="fa fa-github"></i></a>&nbsp;&nbsp;
+                    <a href="http://stackexchange.com/users/5863967/ron-royston"><i class="fa fa-stack-exchange"></i></a>&nbsp;&nbsp;
+                    <a href="https://www.youtube.com/channel/UCrezXaWsBFPst9M2Ur3oX5w" target="_blank"><i class="fa fa-youtube-play"></a></li>
+                  </div>
                 </footer>
               </div>
             </section>
