@@ -79,7 +79,6 @@
                 <br>
                 <br>
                 <br>
-                <span class=" font1 xxl">r </span>
                 <br>
                 <br>
                 <br>
