@@ -14,7 +14,7 @@
                 <label class="mdl-textfield__label" for="password">Password...</label>
             </div>
             <div class="mdl-card__actions send-button">
-                <button type="submit" value="login" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" id="send">
+                <button type="submit" value="login" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--primary" id="send">
                     LOG IN  
                 </button>
             </div>

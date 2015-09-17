@@ -65,7 +65,7 @@
                 <label class="mdl-textfield__label" for="phone">Phone...</label>
             </div>
             <br>
-            <button type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+            <button type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--primary">
                 Register
             </button>
         </form>
