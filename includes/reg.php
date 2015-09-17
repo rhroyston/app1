@@ -13,8 +13,8 @@ $options = array(
 function loginFunction($username, $a) {
 }
 $a = new Auth("DB", $options, "loginFunction", $optional);
-$a->setLoginCallback('loginCallback');
-$a->setLogoutCallback('logoutCallback');
+//$a->setLoginCallback('loginCallback');
+//$a->setLogoutCallback('logoutCallback');
 $a->start();
 
 if ($a->addUser($_POST['username'], $_POST['password'], array(
