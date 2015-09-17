@@ -19,17 +19,20 @@ $a->setLogoutCallback('logoutCallback');
 function loginFunction() { 
 // 
 } 
-function loginCallback($username, $a) { 
-    header("Location: http://app1-rhroyston.rhcloud.com");
-    die();
+function loginCallback($username, $a) {
+    echo 'login callback called';
+    //header("Location: http://app1-rhroyston.rhcloud.com");
+    //die();
 }
-function logoutCallback($username, $a) { 
-    header("Location: http://app1-rhroyston.rhcloud.com");
-    die();
+function logoutCallback($username, $a) {
+    echo 'logout callback called';
+    //header("Location: http://app1-rhroyston.rhcloud.com");
+    //die();
 }
-function registeredCallback($username, $a) { 
-    header("Location: http://app1-rhroyston.rhcloud.com?reg");
-    die();
+function registeredCallback($username, $a) {
+    echo 'registered callback called';
+    //header("Location: http://app1-rhroyston.rhcloud.com?reg");
+    //die();
 }
 //---- REGISTER 
 if ($_POST['register']) {
