@@ -21,11 +21,6 @@ function loginCallback($username, $a) {
     header("Location: http://app1-rhroyston.rhcloud.com");
     die();
 }
-function logoutCallback($username, $a) {
-    echo 'logout callback called';
-    //header("Location: http://app1-rhroyston.rhcloud.com");
-    //die();
-}
 function registeredCallback($username, $a) {
     //echo 'registered callback called';
     header("Location: http://app1-rhroyston.rhcloud.com/access");
