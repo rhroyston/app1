@@ -65,7 +65,7 @@
                 <input type="hidden" name="register" value="True">
             </div>
             <br>
-            <button type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--primary">
+            <button type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--primary" disabled>
                 Register
             </button>
         </form>
