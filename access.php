@@ -12,17 +12,14 @@ $options = array(
 'advancedsecurity' => 'true'
 );
 $a = new Auth("DB", $options, "loginFunction", $optional);
-//$a->addUser('rhroyston@gmail.com', 'nic0tine', array('firstname' => 'Ron', 'lastname' => 'Royston'));
 
 $a->setLogoutCallback('logoutCallback');
 
-function loginFunction() { 
-// 
-} 
+function loginFunction() { } 
 function loginCallback($username, $a) {
-    echo 'login callback called';
-    //header("Location: http://app1-rhroyston.rhcloud.com");
-    //die();
+    //echo 'login callback called';
+    header("Location: http://app1-rhroyston.rhcloud.com");
+    die();
 }
 function logoutCallback($username, $a) {
     echo 'logout callback called';
