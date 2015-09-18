@@ -30,9 +30,9 @@ function logoutCallback($username, $a) {
     //die();
 }
 function registeredCallback($username, $a) {
-    echo 'registered callback called';
-    //header("Location: http://app1-rhroyston.rhcloud.com?reg");
-    //die();
+    //echo 'registered callback called';
+    header("Location: http://app1-rhroyston.rhcloud.com/access");
+    die();
 }
 //---- REGISTER 
 if ($_POST['register']) {
