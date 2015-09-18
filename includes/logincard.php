@@ -17,6 +17,10 @@
                 <button type="submit" value="login" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--primary" id="send">
                     LOG IN  
                 </button>
+            <?php if(isset($_SESSION['message'])){
+                echo '<span class="mdl-badge" data-badge="' . $_SESSION['message'] . '"></span>';
+            }
+            ?>
             </div>
         </form>
     </div>

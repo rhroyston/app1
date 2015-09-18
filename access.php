@@ -21,6 +21,12 @@ function loginCallback($username, $a) {
     header("Location: http://app1-rhroyston.rhcloud.com");
     die();
 }
+function failedLoginCallback($username, $a) {
+    //echo 'login callback called';
+    $_SESSION["message"]='login failed';
+    header("Location: http://app1-rhroyston.rhcloud.com");
+    die();
+}
 function registeredCallback($username, $a) {
     //echo 'registered callback called';
     header("Location: http://app1-rhroyston.rhcloud.com/access");
@@ -49,6 +55,7 @@ if ($_POST['register']) {
 }else {
 // normal login
 $a->setLoginCallback('loginCallback');
+$a->setFailedLoginCallback('failedLoginCallback');
 $a -> start ();
 } 
 
