@@ -24,7 +24,7 @@ function loginCallback($username, $a) {
 function failedLoginCallback($username, $a) {
     //echo 'login callback called';
     $_SESSION["message"]='login failed';
-    header("Location: http://app1-rhroyston.rhcloud.com");
+    header("Location: http://app1-rhroyston.rhcloud.com/access");
     die();
 }
 function registeredCallback($username, $a) {
