@@ -4,6 +4,9 @@ body {
   width: 100%;
   font-family: 'Special Elite', cursive;
 }
+.red{
+  color:red;
+}
 .xxl{
 font-size:10em;
 }

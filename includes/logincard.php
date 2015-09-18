@@ -18,7 +18,11 @@
                     LOG IN  
                 </button>
             <?php if(isset($_SESSION['message'])){
-                echo '<span class="mdl-badge" data-badge="' . $_SESSION['message'] . '"></span>';
+                $message=$_SESSION['message'];
+                unset ($_SESSION['message']);
+                echo '<div class="mdl-textfield mdl-js-textfield mdl-cell mdl-cell--12-col">';
+                echo "<p class=\"red\">$message</p>";
+                echo '</div>';
             }
             ?>
             </div>
