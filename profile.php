@@ -2,7 +2,7 @@
   require_once "Auth.php";
   $title = 'Profile';  
   $options = array(
-  'dsn' => 'mysql://admin39halFD:Fdnv72D2mZjX@127.7.188.2/app1',
+  'dsn' => 'mysql://username:password@1.1.1.1/app1',
   'table' => 'users',
   'usernamecol' => 'email',
   'passwordcol' => 'pass',
